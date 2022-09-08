@@ -1,0 +1,175 @@
+:root {
+  --white-color: #FFFFFF;
+  --black-color: #000000;
+  --main-color: #2196F3;
+  --primary-text-color: #757575;
+  --secondary-text-color: #212121;
+  --gray-color: #F5F4FA;
+  --tint-color-6: rgba(255, 255, 255, 0.6);
+  --btn-active-color: #188CE8;
+  --background-color: #2F303A;
+}
+
+.sr-only:not(:focus):not(:active) {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--white-color);
+  color: var(--primary-text-color);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  color: var(--black-color);
+}
+
+.logo span {
+  color: var(--main-color);
+}
+
+.link.header-logo {
+  color: var(--black-color);
+}
+
+.link.footer-logo {
+  color: var(--white-color);
+}
+
+.link {
+  text-decoration: none;
+  color: var(--secondary-text-color);
+  line-height: 1.14;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--main-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.header-contact {
+  color: var(--primary-text-color);
+}
+
+.hero {
+  background-color: var(--background-color);
+}
+
+.hero-title {
+  text-align: center;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+
+.btn {
+  padding: 10px 32px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--white-color);
+  background-color: var(--main-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: var(--btn-active-color);
+}
+
+.tab {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--secondary-text-color);
+  background-color: var(--gray-color);
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.tab:hover {
+  color: var(--white-color);
+  background-color: var(--main-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+    0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.advantage-title {
+  font-weight: 700;
+  line-height: 1.14;
+  color: var(--secondary-text-color);
+  text-transform: uppercase;
+}
+
+.secondary-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  color: var(--secondary-text-color);
+}
+
+.our-team {
+  background-color: var(--gray-color);
+}
+
+.team-title {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.19;
+  color: var(--secondary-text-color);
+}
+
+.team-text {
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.project-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: var(--secondary-text-color);
+}
+
+.project-text {
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+footer {
+  background-color: var(--background-color);
+}
+
+.address {
+  color: var(--white-color);
+}
+
+.footer-contact {
+  color: var(--tint-color-6);
+}
